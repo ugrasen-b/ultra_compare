@@ -1,0 +1,11 @@
+﻿[project]
+name = "ultra-compare"
+version = "0.0.1"
+description = "Compare files (PDF/TXT/CSV)"
+requires-python = ">=3.10"
+dependencies = [
+  "pypdf>=4.0",
+]
+
+[project.scripts]
+ultra-compare = "ultra_compare.__main__:main"
